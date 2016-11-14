@@ -19,8 +19,11 @@ class Pendaftar extends Migration
             $table->string('email');
             $table->string('ipk');
             $table->string('prestasi');
+            $table->string('tingkat');
             $table->string('pengalaman_kerja');
+            $table->string('lama_kerja');
             $table->string('pengalaman_organisasi');
+            $table->string('posisi');
             $table->timestamps();
         });
     }
