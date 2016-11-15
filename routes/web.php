@@ -24,3 +24,6 @@ Route::get('/data', 'PegawaiController@index');
 Route::get('/seleksi', 'PegawaiController@seleksi');
 Route::post('/hasil', 'PegawaiController@bobot');
 Route::get('/hasil', 'PegawaiController@bobot');
+Route::get('/form', 'FormController@index');
+Route::get('/daftar', 'FormController@daftar');
+Route::post('/daftar', 'FormController@daftar');
