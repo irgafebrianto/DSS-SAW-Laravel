@@ -27,7 +27,7 @@ class FormController extends Controller
         $daftar->posisi = $request->get('posisi');
         $daftar->save();
 
-        \Session::flash('flash_message','Data Berhasil SILIT');
+        \Session::flash('flash_message','Data Berhasil Disubmit');
         return view('halaman.formpendaftar');
 
 

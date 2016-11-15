@@ -13,6 +13,11 @@
 @endif
 
 <div align="center">
+    <h2>FORM PENDAFTARAN</h2>
+    <br>
+</div>
+
+<div align="center">
 <form action="{{ url('/daftar') }}" method="post" enctype="multipart/form-data" style="width: 50%">
 <div align="left">
   <div>
@@ -34,7 +39,7 @@
   <div>
     Tingkat <br>
       <select class="form-control"  required="required" name="tingkat" title="Tingkat Prestasi">
-        <option value="1">Regional</option>
+        <option value="1">Lokal</option>
         <option value="2">Regional</option>
         <option value="3">Nasional</option>
         <option value="4">Internasional</option>
@@ -62,7 +67,7 @@
       </select>
   </div>
   <br>
-  <div style="float:right;">
+  <div style="float:right; margin-bottom:30px;">
     <input type="submit" class="btn btn-success" value="Submit" name="submit">
     <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
     <button type="button" class="btn btn-default btn-simple">Kembali</button>
