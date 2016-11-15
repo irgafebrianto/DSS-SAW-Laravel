@@ -20,3 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/data', 'PegawaiController@index');
+
+Route::get('/seleksi', 'PegawaiController@seleksi');
+Route::post('/hasil', 'PegawaiController@bobot');
+Route::get('/hasil', 'PegawaiController@bobot');

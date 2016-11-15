@@ -22,14 +22,15 @@ th {
 </style>
 
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
-                
+<div align="center" style="margin-left: 10%; margin-right: 10%">
+
+<div>
+    <h2>DATA PENDAFTAR</h2>
+    <br>
+</div>
+
+<div>
                     <table>
 
                     <tr>
@@ -105,11 +106,8 @@ th {
                     </tr>
                     @endforeach
                     </table>
-
-{!!$pendaftar->render()!!}
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+</div>
+{!!$pendaftar->render()!!}
+                
 @endsection
