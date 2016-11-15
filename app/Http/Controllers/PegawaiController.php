@@ -33,6 +33,7 @@ class PegawaiController extends Controller
 
     	foreach ($pendaftar as $yeah) {
     		$id[$i] = $yeah->id;
+    		$nama[$i] = $yeah->nama;
     		$ipk[$i] = $yeah->ipk * $bobot_ipk;
     		$prestasi[$i] = $yeah->tingkat * $bobot_prestasi;
     		$organisasi[$i] = $yeah->posisi * $bobot_organisasi;
@@ -42,11 +43,12 @@ class PegawaiController extends Controller
     	}
     	
 
-         
+         array_multisort($jumlah, SORT_DESC, $id, $nama, $ipk, $prestasi, $organisasi, $pengalaman, $jumlah);
+
         
-          //return view('halaman.hasilseleksi')->with('pendaftar', $pendaftar);
+        return view('halaman.hasilseleksi')->with('nama', $nama)->with('ipk', $ipk)->with('prestasi', $prestasi)->with('organisasi', $organisasi)->with('pengalaman', $pengalaman)->with('jumlah', $jumlah);
     
-    	return $jumlah;
+    	//return array($jumlah, $id, $ipk);
     }
 
 }
