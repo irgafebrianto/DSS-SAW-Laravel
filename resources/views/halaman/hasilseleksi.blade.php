@@ -42,15 +42,19 @@ th {
                         <th>Jumlah</th>
                     </tr>
 
-                    @for($i=0;$i<=3;$i++)
+                    @for($i=0;$i<=4;$i++)
+                    @if(isset($nama[$i]))
                     <tr>
+                    
                         <td>{{$nama[$i]}}</td>
                         <td>{{$ipk[$i]}}</td>
                         <td>{{$prestasi[$i]}}</td>
                         <td>{{$pengalaman[$i]}}</td>
                         <td>{{$organisasi[$i]}}</td>
                         <td>{{$jumlah[$i]}}</td>
+                    
                     </tr>
+                   @endif
                     @endfor
                     </table>
                 </div>
