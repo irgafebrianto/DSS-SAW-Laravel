@@ -24,7 +24,7 @@
 
             <div class="col-md-4 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://www.hremploymentscreening.com/images-blog/fraudulent-resumes-employment-background-verification-check.jpg" alt="">
+                    <img src="http://www.bvainc.com/wp-content/uploads/2016/06/employee-data.jpg" alt="" style="width: 351px; height: 219.367px;">
                     <div class="caption">
                         <h3>Seleksi</h3>
                         <p>
@@ -36,7 +36,7 @@
 
             <div class="col-md-4 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://www.desktopimages.org/pictures/2013/0227/1/briefcase-full-of-money-background-354620.jpg" alt="">
+                    <img src="http://www.hremploymentscreening.com/images-blog/fraudulent-resumes-employment-background-verification-check.jpg" alt="">
                     <div class="caption">
                         <h3>Tambah Pendaftar</h3>
                         <p>
