@@ -75,7 +75,33 @@ th {
                     <td>{{ $pendafta->pengalaman_kerja }}</td>
                     <td>{{ $pendafta->lama_kerja }} Tahun</td>
                     <td>{{ $pendafta->pengalaman_organisasi }}</td>
-                    <td>{{ $pendafta->posisi }}</td>
+                    <td>
+                         @if($pendafta->posisi == "1")
+
+                    Anggota
+
+                    @endif
+                
+                    @if($pendafta->posisi == "2")
+
+                    Koordinator
+
+                    @endif
+
+                    @if($pendafta->posisi == "3")
+
+                    Pengurus Harian
+
+                    @endif
+
+                    @if($pendafta->posisi == "4")
+
+                    Ketua
+
+                    @endif
+
+
+                    </td>
                     </tr>
                     @endforeach
                     </table>
