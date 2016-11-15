@@ -26,11 +26,11 @@ th {
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+               <!--  <div class="panel-heading">Dashboard</div> -->
 
                 <div class="panel-body">
                     <div>
-                    <h5><strong>Bobot</strong> </h5>
+                    <h5><strong>Bobot (Jumlah seluruh bobot harus = 1)</strong> </h5>
                     </div>
                         
                         <form action="{{ url('hasil') }}" method="post" style="margin: 10px">

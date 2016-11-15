@@ -55,17 +55,23 @@ th {
                     <td>
                     @if($pendafta->tingkat == "1")
 
+                    Lokal
+
+                    @endif
+
+                    @if($pendafta->tingkat == "2")
+
                     Regional
 
                     @endif
                 
-                    @if($pendafta->tingkat == "2")
+                    @if($pendafta->tingkat == "3")
 
                     Nasional
 
                     @endif
 
-                    @if($pendafta->tingkat == "3")
+                    @if($pendafta->tingkat == "4")
 
                     Internasional
 
